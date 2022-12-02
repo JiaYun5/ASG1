@@ -136,3 +136,23 @@ h1 {
 button:hover {
 	background-color: lightgray;
 }
+
+/*rb.html*/
+.ingdeck {
+	display: flex;
+	padding-top: 70px;
+	padding-left: 20px;
+	align-items: center;
+}
+
+.ingdeck ul {
+
+	display: flex;
+	padding: 60px;
+}
+
+.ingdeck ul .com,
+.rare,
+.epic {
+	padding: 36px 30px;
+}
