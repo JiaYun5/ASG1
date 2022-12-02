@@ -140,19 +140,43 @@ button:hover {
 /*rb.html*/
 .ingdeck {
 	display: flex;
+	flex-direction: column;
 	padding-top: 70px;
 	padding-left: 20px;
 	align-items: center;
+	font-size: 20px;
 }
 
 .ingdeck ul {
 
 	display: flex;
-	padding: 60px;
+	padding: 10px;
+}
+
+.ingdeck ul h6 {
+	font-size: 22px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+}
+
+.card {
+	display: flex;
+	flex-direction: row;
+	font-size: 30px;
+	background-color: aquamarine;
+	color: brown;
+}
+
+.card h5 {
+	padding: 30px 230px;
 }
 
 .ingdeck ul .com,
 .rare,
 .epic {
-	padding: 36px 30px;
+	padding-right: 60px;
+}
+
+.ingdeck ul .actcard {
+	padding-left: 40px;
 }
