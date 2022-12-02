@@ -99,6 +99,8 @@ h1 {
 .box2 .image,
 .box3 .image {
 	text-align: left;
+	padding-top: 3px;
+	padding: ;
 	border: 3px solid blue;
 }
 
@@ -130,6 +132,6 @@ h1 {
 	border-radius: 8px;
 }
 
-button a:hover {
-	background-color: aqua;
+button:hover {
+	background-color: lightgray;
 }
