@@ -144,17 +144,18 @@ button:hover {
 	padding-top: 70px;
 	padding-left: 20px;
 	align-items: center;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 .ingdeck ul {
-
 	display: flex;
-	padding: 10px;
+	padding-right: 200px;
+	padding-left: 100px;
+	background-color: rgb(193, 219, 241);
 }
 
 .ingdeck ul h6 {
-	font-size: 22px;
+	font-size: 15px;
 	padding-bottom: 20px;
 	padding-right: 10px;
 }
@@ -162,21 +163,58 @@ button:hover {
 .card {
 	display: flex;
 	flex-direction: row;
+	text-align: center;
 	font-size: 30px;
 	background-color: aquamarine;
 	color: brown;
+	padding: 20px 210px 20px 210px;
 }
 
-.card h5 {
-	padding: 30px 230px;
+.card .ingcard {
+	padding-right: 400px;
+}
+
+.card .actcards {
+	padding-left: 350px;
 }
 
 .ingdeck ul .com,
 .rare,
 .epic {
-	padding-right: 60px;
+	padding: 36px 10px;
+	margin-right: 40px;
 }
 
 .ingdeck ul .actcard {
-	padding-left: 40px;
+	padding-left: 80px;
+}
+
+.setup {
+	display: flex;
+	flex-direction: column;
+	padding: 0px 20px 0px 20px;
+	line-height: 30px;
+}
+
+.menu .na {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	padding: 10px 50px 10px 400px;
+}
+
+.menu h3 {
+	padding: 10px 100px 10px 30px;
+}
+
+.menu .mn {
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+	padding: 10px 20px 10px 300px;
+
+}
+
+.menu .mn div {
+	padding: 0px 40px 10px 0px;
 }
