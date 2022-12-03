@@ -25,10 +25,15 @@
 <ul>
 <li>Adobe XD for website wireframe</li>
 <li>Visual Studio Code for main codes</li>
+</ul>
 <h2>Testing</h2>
 <p>No testing needed at the moment</p>
 <h2>Credits</h2>
 <h6>Content</h6>
 <ul>
 <li>The Game was obtained from Kayen's original idea</li>
+</ul>
+<h6>Media</h6>
 <ul>
+<li>The pictures used were taken from unsplash.com</li>
+</ul>
