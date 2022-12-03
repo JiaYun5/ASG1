@@ -20,11 +20,13 @@
 <ul>
 <li>Newsletter so that customers can choose to be able to be notified whenever a new game is coming soon</li>
 <li>Online customer service so that customer will not have to wait long for answers to their questions</li>
+</ul>
 <h2>Technologies Used</h2>
 <ul>
 <li>Adobe XD for website wireframe</li>
 <li>Visual Studio Code for main codes</li>
 <h2>Testing</h2>
+<p>No testing needed at the moment</p>
 <h2>Credits</h2>
 <h6>Content</h6>
 <ul>
