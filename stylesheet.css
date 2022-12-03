@@ -154,11 +154,20 @@ button:hover {
 	font-size: 15px;
 }
 
+.ingdeck h2 {
+	font-family: 'Caveat', cursive;
+	font-size: 40px;
+}
+
 .ingdeck ul {
 	display: flex;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	padding-right: 200px;
 	padding-left: 100px;
 	background-color: rgb(193, 219, 241);
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 21px;
 }
 
 .ingdeck ul h6 {
@@ -171,14 +180,14 @@ button:hover {
 	display: flex;
 	flex-direction: row;
 	text-align: center;
-	font-size: 30px;
-	background-color: aquamarine;
+	font-size: 45px;
 	color: brown;
 	padding: 20px 210px 20px 210px;
+	font-family: 'Teko', sans-serif;
 }
 
 .card .ingcard {
-	padding-right: 400px;
+	padding-right: 350px;
 }
 
 .card .actcards {
@@ -199,7 +208,7 @@ button:hover {
 }
 
 .ingdeck ul .actcard {
-	padding-left: 80px;
+	padding-left: 240px;
 }
 
 .setup {
@@ -207,6 +216,7 @@ button:hover {
 	flex-direction: column;
 	padding: 0px 20px 0px 20px;
 	line-height: 30px;
+	font-family: 'Space Grotesk', sans-serif;
 }
 
 .menu .na {
@@ -230,4 +240,8 @@ button:hover {
 
 .menu .mn div {
 	padding: 0px 40px 10px 0px;
+}
+
+h5 {
+	font-size: 20px;
 }
