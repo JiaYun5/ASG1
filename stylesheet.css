@@ -32,7 +32,7 @@ nav a {
 	text-decoration: none;
 	font-size: 20px;
 	color: white;
-	padding: 36px 10px;
+	padding: 20px 10px;
 }
 
 nav a:hover {
@@ -214,6 +214,7 @@ button:hover {
 .setup {
 	display: flex;
 	flex-direction: column;
+	background-color: bisque;
 	padding: 0px 20px 0px 20px;
 	line-height: 30px;
 	font-family: 'Space Grotesk', sans-serif;
@@ -245,3 +246,5 @@ button:hover {
 h5 {
 	font-size: 20px;
 }
+
+/* MEDIA QUERY */
