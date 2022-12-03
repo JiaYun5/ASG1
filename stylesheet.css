@@ -12,6 +12,7 @@ body {
 
 .box1 .text {
 	padding-right: 20px;
+	padding-bottom: 20px;
 	font-family: 'Playfair Display', serif;
 }
 
@@ -40,7 +41,7 @@ nav a:hover {
 	color: black;
 }
 
-/*nav.html*/
+/*index.html*/
 h1 {
 	color: rgb(244, 237, 221);
 	background-color: darkblue;
@@ -81,7 +82,7 @@ h1 {
 	background-color: beige;
 }
 
-.MS h4 {
+.MS {
 	text-align: left;
 	padding-left: 115px;
 	padding-bottom: 20px;
@@ -147,7 +148,7 @@ button:hover {
 .ingdeck {
 	display: flex;
 	flex-direction: column;
-	background-color: bisque;
+	background-color: rgb(193, 219, 241);
 	padding-top: 10px;
 	padding-left: 20px;
 	align-items: center;
@@ -165,7 +166,6 @@ button:hover {
 	padding-bottom: 20px;
 	padding-right: 200px;
 	padding-left: 100px;
-	background-color: rgb(193, 219, 241);
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 21px;
 }
@@ -216,15 +216,22 @@ button:hover {
 	flex-direction: column;
 	background-color: bisque;
 	padding: 0px 20px 0px 20px;
+	padding-bottom: 20px;
 	line-height: 30px;
 	font-family: 'Space Grotesk', sans-serif;
+}
+
+.menu {
+	font-family: 'Klee One', cursive;
+	font-size: 15px;
 }
 
 .menu .na {
 	display: flex;
 	flex-direction: row;
 	text-align: center;
-	padding: 10px 50px 10px 400px;
+	padding: 10px 90px 10px 430px;
+	background-color: rgb(208, 226, 243);
 }
 
 .menu h3 {
@@ -235,7 +242,8 @@ button:hover {
 	display: flex;
 	flex-direction: row;
 	text-align: left;
-	padding: 10px 20px 10px 300px;
+	background-color: rgb(208, 226, 243);
+	padding: 10px 15px 5px 300px;
 
 }
 
@@ -248,3 +256,58 @@ h5 {
 }
 
 /* MEDIA QUERY */
+
+@media screen and (max-width: 768px) {
+
+	.box1,
+	.box2,
+	.box3 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.box2-5,
+	.box3-5 {
+		padding-top: 20px;
+	}
+
+	.OOS,
+	.MS {
+		padding-top: 20px;
+	}
+
+	.ingdeck,
+	.setup,
+	.menu {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.card {
+		display: none;
+	}
+
+	.ingdeck ul {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.ing {
+		flex-direction: column;
+		text-align: center;
+		margin-left: 100px;
+		padding-left: 300px;
+		padding-bottom: 30px;
+	}
+
+	.actcard {
+		flex-direction: column;
+		text-align: center;
+		margin-right: 30px;
+	}
+
+	.menu .na {
+		flex-direction: row;
+		text-align: left;
+	}
+}
