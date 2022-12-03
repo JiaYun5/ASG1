@@ -147,12 +147,12 @@ button:hover {
 .ingdeck {
 	display: flex;
 	flex-direction: column;
+	background-color: bisque;
+	padding-top: 10px;
 	padding-left: 20px;
 	align-items: center;
 	font-size: 15px;
 }
-
-
 
 .ingdeck ul {
 	display: flex;
@@ -185,11 +185,17 @@ button:hover {
 	padding-left: 350px;
 }
 
-.ingdeck ul .com,
+/*.ingdeck ul .com,
 .rare,
 .epic {
 	padding: 36px 10px;
 	margin-right: 40px;
+}*/
+
+.ing {
+	display: flex;
+	flex-direction: row;
+	padding-right: 230px;
 }
 
 .ingdeck ul .actcard {
